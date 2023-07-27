@@ -1,15 +1,24 @@
 .contato {
-  display: flex;
   background-color: var(--cor-preto);
   align-items: center;
-  justify-content: center;
   padding: 3rem 0;
+  color: var(--cor-branco);
+}
+.info {
+  display: flex;
+  margin: 3rem 0;
+}
+.contato h2,
+.contato h4 {
+  opacity: 0.8;
+}
+.contato p {
+  opacity: 0.6;
 }
 .empresa {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0rem 10rem 0rem 12rem;
 }
 .content-contato {
   margin: 0 2rem;
@@ -24,4 +33,23 @@
   background-color: var(--cor-laranja);
   color: var(--cor-branco);
   margin: 1rem 0;
+}
+.numeros i,
+.redes i {
+  font-size: 1.4rem;
+  color: #ee7505;
+}
+.numeros p {
+  margin-left: 0.5rem;
+}
+.content-redes {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 0 6rem;
+}
+.direitos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 37rem 0rem 0rem;
 }

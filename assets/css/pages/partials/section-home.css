@@ -57,7 +57,7 @@ video {
 
 /* Responsivo */
 @media screen and (max-width: 1000px) {
-  .home {
+  /* .home {
     background: -moz-linear-gradient(bottom, #000 100%, rgba(0, 0, 0, 0) 93%);
     background: -webkit-linear-gradient(
       bottom,
@@ -94,5 +94,5 @@ video {
   }
   .home button {
     margin: 8rem 0 0 0;
-  }
+  } */
 }
