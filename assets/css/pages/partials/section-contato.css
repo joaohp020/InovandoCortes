@@ -1,0 +1,27 @@
+.contato {
+  display: flex;
+  background-color: var(--cor-preto);
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.empresa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-contato {
+  margin: 0 2rem;
+}
+.numero-contato .numeros {
+  display: flex;
+}
+.btn-contato {
+  width: 100%;
+  max-width: 10rem;
+  height: 2.5rem;
+  background-color: var(--cor-laranja);
+  color: var(--cor-branco);
+  margin: 1rem 0;
+}

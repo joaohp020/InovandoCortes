@@ -1,21 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    scroll-behavior: smooth;
-    appearance: none;
-    font-family: "Poppins", sans-serif;
-  }
-  html {
-    overflow-x: hidden;
-  }
-  body {
-  }
-  section {
-    min-height: 100vh;
-  }
-  span {
-    color: var(--cor-laranja);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  appearance: none;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+}
+section {
+  min-height: 100vh;
+}

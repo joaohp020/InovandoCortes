@@ -5,42 +5,42 @@ section .ambiente {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: var(--cor-preto);
 }
-.content-ambiente {
+.carousel-ambiente {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 5rem 0;
 }
-.categorias {
-  display: flex;
-}
-.setor {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 3rem 2rem;
-  align-items: center;
-  justify-content: center;
-}
-.ambiente button {
+.btn-catalogo {
   width: 100%;
   max-width: 8rem;
   height: 2.5rem;
   background-color: var(--cor-laranja);
   color: var(--cor-branco);
+  margin: 1rem 0;
 }
 .ambiente h4 {
   color: var(--cor-branco);
   margin-top: 1rem;
 }
-.setor img {
+.c-indicators {
+  margin: 0 0 4rem 0;
+}
+.c-item {
+  height: 38rem;
+}
+.c-img {
   width: 100%;
   height: 100%;
-  max-width: 15rem;
-  transition: opacity 0.4s ease;
+  max-width: 51rem;
+  max-height: 29rem;
+  object-fit: cover;
+  filter: brightness(0.6);
 }
-
 
 /* Responsivo */
 
@@ -53,4 +53,3 @@ section .ambiente {
     flex-direction: column;
   }
 }
-
