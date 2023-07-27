@@ -53,3 +53,24 @@
   justify-content: center;
   margin: 1rem 37rem 0rem 0rem;
 }
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  .empresa {
+    margin: 0 0rem 0 2rem;
+  }
+  .content-contato {
+    margin: 1rem 2rem;
+  }
+  .direitos {
+    margin: 0rem 4rem 0rem 0rem;
+    font-size: 0.6rem;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .content-redes {
+    margin: 0rem 0rem 0 2rem;
+  }
+}
+

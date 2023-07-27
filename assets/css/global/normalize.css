@@ -1,20 +1,26 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  scroll-behavior: smooth;
-  appearance: none;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 html {
   overflow-x: hidden;
 }
 body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 section {
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 #whatsapp-button {
@@ -38,4 +44,15 @@ section {
 
 #whatsapp-button a i {
   margin: 0px 3px 0px 4px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  #whatsapp-button {
+    bottom: 2rem;
+    right: 2.3rem;
+  }
+  body {
+    margin: 0;
+  }
 }

@@ -25,6 +25,9 @@ section .ambiente {
 }
 .ambiente h4 {
   color: var(--cor-branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 1rem;
 }
 .c-indicators {
