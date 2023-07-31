@@ -30,6 +30,11 @@ section .ambiente {
   justify-content: center;
   margin-top: 1rem;
 }
+#ambienteCategorias {
+  width: 86rem;
+  height: 32rem;
+}
+
 .c-indicators {
   margin: 0 0 4rem 0;
 }
@@ -62,16 +67,42 @@ section .ambiente {
   max-height: 29rem;
   object-fit: cover;
   filter: brightness(0.6);
+  margin: 0 0 0 17rem;
 }
 
 /* Responsivo */
-
 @media screen and (max-width: 1000px) {
   .ambiente {
     padding: 0 20px;
   }
+  .ambiente h4 {
+    color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
   .categorias {
     display: flex;
     flex-direction: column;
+  }
+  #ambienteCategorias {
+    width: 21rem;
+    height: 19rem;
+    margin: 0rem 4rem 0rem 0;
+  }
+  .c-item {
+    height: 16rem;
+  }
+  .c-img {
+    max-width: 14rem;
+    max-height: 11rem;
+    margin: 1rem 0 0 3rem;
+  }
+  .c-indicators {
+    margin: 0 0 7rem 0;
+  }
+  .btn-catalogo {
+    margin: 0rem 4rem 0rem 0;
   }
 }
