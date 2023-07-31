@@ -89,7 +89,7 @@ section .ambiente {
   #ambienteCategorias {
     width: 21rem;
     height: 19rem;
-    margin: 0rem 4rem 0rem 0;
+    margin: 0rem 0rem 0rem 0;
   }
   .c-item {
     height: 16rem;
@@ -103,6 +103,6 @@ section .ambiente {
     margin: 0 0 7rem 0;
   }
   .btn-catalogo {
-    margin: 0rem 4rem 0rem 0;
+    margin: 0rem 0rem 0rem 0;
   }
 }
